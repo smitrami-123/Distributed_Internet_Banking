@@ -14,8 +14,8 @@ This repository contains a set of microservices built using Spring Boot and Spri
 1. **User Service**: Manages user registration and authentication.
 2. **Fund Transfer Service**: Facilitates fund transfer between user accounts.
 3. **Utility Payment Service**: Handles utility payments such as electricity, water, and gas bills.
-4. **API Gateway**: Serves as the entry point for client requests and routes them to the appropriate microservices.
-5. **Configuration Server**: Centralizes application configurations and serves them to microservices.
+4. **Banking Core Service**: Manages accounts, users, transaction details, and banking transactions.
+5. **Notification Service**: Consumes messages from RabbitMQ and sends necessary notifications to end users.
 
 ### Getting Started
 
