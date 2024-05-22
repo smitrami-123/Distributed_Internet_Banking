@@ -18,7 +18,9 @@ This repository contains a set of microservices built using Spring Boot and Spri
 5. **Notification Service**: Consumes messages from RabbitMQ and sends necessary notifications to end users.
 
 ### Project Planned Architecture
-![image](https://github.com/smitrami-123/Distributed_Internet_Banking/assets/75108933/e3023af4-3f09-49ea-b913-bef349da9ad1)
+![architect](https://github.com/smitrami-123/Distributed_Internet_Banking/assets/75108933/c4424010-1ce9-45c1-81e6-96947bad06d0)
+
+
 
 
 ### Getting Started
