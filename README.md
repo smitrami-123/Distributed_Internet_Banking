@@ -21,7 +21,12 @@ This repository contains a set of microservices built using Spring Boot and Spri
 ![architect](https://github.com/smitrami-123/Distributed_Internet_Banking/assets/75108933/c4424010-1ce9-45c1-81e6-96947bad06d0)
 
 
-
+## Different Layers for abstraction
+1) Database Layer
+2) Repository Layer (Extending JPA on Database) (Entity -> DTO)
+3) Service Layer ( DTO -> Entity -> DTO)
+4) Controller Layer
+5) Client Layer
 
 ### Getting Started
 
