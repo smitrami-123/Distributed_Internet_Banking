@@ -17,6 +17,10 @@ This repository contains a set of microservices built using Spring Boot and Spri
 4. **Banking Core Service**: Manages accounts, users, transaction details, and banking transactions.
 5. **Notification Service**: Consumes messages from RabbitMQ and sends necessary notifications to end users.
 
+### Project Planned Architecture
+![image](https://github.com/smitrami-123/Distributed_Internet_Banking/assets/75108933/e3023af4-3f09-49ea-b913-bef349da9ad1)
+
+
 ### Getting Started
 
 1. **Clone the Repository**: Clone this repository to your local machine using `git clone`.
@@ -40,6 +44,7 @@ This repository contains a set of microservices built using Spring Boot and Spri
 5. **Testing APIs**:
    - Use tools like Postman to test the RESTful APIs exposed by the microservices.
    - Refer to the API documentation or source code for available endpoints and request/response formats.
+
 
 ### Contributing
 
