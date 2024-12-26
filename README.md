@@ -1,6 +1,10 @@
-**Internet Banking Microservices with Spring Cloud Config**
+## Internet Banking Microservices with Spring Cloud Config
 
 This repository contains a set of microservices built using Spring Boot and Spring Cloud Config for managing centralized configurations. The microservices architecture includes services for user management, utility payments, fund transfers, and more, all integrated with a central configuration server.
+
+### Demo
+
+[![Watch the video](https://img.youtube.com/vi/0qLcdcnNmgo/0.jpg)](https://youtu.be/0qLcdcnNmgo)
 
 ### Features
 
@@ -18,10 +22,11 @@ This repository contains a set of microservices built using Spring Boot and Spri
 5. **Notification Service**: Consumes messages from RabbitMQ and sends necessary notifications to end users.
 
 ### Project Planned Architecture
+
 ![architect](https://github.com/smitrami-123/Distributed_Internet_Banking/assets/75108933/c4424010-1ce9-45c1-81e6-96947bad06d0)
 
+### Different Layers for abstraction
 
-## Different Layers for abstraction
 1) Database Layer
 2) Repository Layer (Extending JPA on Database) (Entity -> DTO)
 3) Service Layer ( DTO -> Entity -> DTO)
